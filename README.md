@@ -1,8 +1,5 @@
-# Greeter
+# Starter
 
-[![Translation status](https://l10n.elementary.io/widgets/desktop/-/greeter/svg-badge.svg)](https://l10n.elementary.io/engage/desktop/?utm_source=widget)
-
-![Screenshot](data/screenshot.png?raw=true)
 
 ## Building and Installation
 
