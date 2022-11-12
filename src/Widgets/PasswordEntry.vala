@@ -1,5 +1,5 @@
 /*
- * Copyright 2018–2019 elementary, Inc. (https://elementary.io)
+ * Copyright 2018–2019 playnux, Inc. (https://playnux.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -16,7 +16,7 @@
  * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  * Boston, MA 02110-1301 USA.
  *
- * Authors: Corentin Noël <corentin@elementary.io>
+ * Authors: Corentin Noël <corentin@playnux.io>
  */
 
 public class Greeter.PasswordEntry : Gtk.Entry {

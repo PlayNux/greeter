@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 elementary, Inc. (https://elementary.io)
+ * Copyright 2018 playnux, Inc. (https://playnux.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -16,7 +16,7 @@
  * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  * Boston, MA 02110-1301 USA.
  *
- * Authors: Corentin Noël <corentin@elementary.io>
+ * Authors: Corentin Noël <corentin@playnux.io>
  */
 
 public int main (string[] args) {
@@ -38,7 +38,7 @@ public int main (string[] args) {
     Greeter.SubprocessSupervisor wingpanel;
 
     try {
-        compositor = new Greeter.SubprocessSupervisor ({"io.elementary.greeter-compositor"});
+        compositor = new Greeter.SubprocessSupervisor ({"io.playnux.greeter-compositor"});
     } catch (Error e) {
         critical (e.message);
     }
@@ -47,7 +47,7 @@ public int main (string[] args) {
     window.show_all ();
 
     try {
-        wingpanel = new Greeter.SubprocessSupervisor ({"io.elementary.wingpanel", "-g"});
+        wingpanel = new Greeter.SubprocessSupervisor ({"io.playnux.wingpanel", "-g"});
     } catch (Error e) {
         critical (e.message);
     }

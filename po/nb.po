@@ -1,16 +1,16 @@
-# Norwegian Bokmal translation for pantheon-greeter
+# Norwegian Bokmal translation for bolt-greeter
 # Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
-# This file is distributed under the same license as the pantheon-greeter package.
+# This file is distributed under the same license as the bolt-greeter package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: pantheon-greeter\n"
+"Project-Id-Version: bolt-greeter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-30 10:51+0000\n"
 "PO-Revision-Date: 2020-08-23 18:13+0000\n"
 "Last-Translator: Nils K <slx@nilsk.net>\n"
-"Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/desktop/"
+"Language-Team: Norwegian Bokmål <https://l10n.playnux.io/projects/desktop/"
 "greeter/nb/>\n"
 "Language: nb\n"
 "MIME-Version: 1.0\n"

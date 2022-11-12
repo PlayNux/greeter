@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 elementary, Inc. (https://elementary.io)
+ * Copyright 2018 playnux, Inc. (https://playnux.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -16,7 +16,7 @@
  * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  * Boston, MA 02110-1301 USA.
  *
- * Authors: Corentin Noël <corentin@elementary.io>
+ * Authors: Corentin Noël <corentin@playnux.io>
  */
 
 public class Greeter.Settings : GLib.Object {
@@ -89,7 +89,7 @@ public class Greeter.Settings : GLib.Object {
     }
 
     construct {
-        var state_dir = GLib.Path.build_filename (GLib.Environment.get_user_cache_dir (), "io.elementary.greeter");
+        var state_dir = GLib.Path.build_filename (GLib.Environment.get_user_cache_dir (), "io.playnux.greeter");
         GLib.DirUtils.create_with_parents (state_dir, 0775);
 
         unowned string? xdg_seat = GLib.Environment.get_variable ("XDG_SEAT");
@@ -106,7 +106,7 @@ public class Greeter.Settings : GLib.Object {
 
         settings = new GLib.KeyFile ();
         try {
-            var greeter_conf_file = GLib.Path.build_filename (Constants.CONF_DIR, "io.elementary.greeter.conf");
+            var greeter_conf_file = GLib.Path.build_filename (Constants.CONF_DIR, "io.playnux.greeter.conf");
             settings.load_from_file (greeter_conf_file, GLib.KeyFileFlags.NONE);
         } catch (Error e) {
             critical (e.message);

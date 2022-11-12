@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
     - uses: actions/checkout@v1
-    - uses: elementary/actions/gettext-template@horus
+    - uses: playnux/actions/gettext-template@horus
       env:
         GIT_USER_TOKEN: "${{ secrets.GIT_USER_TOKEN }}"
         GIT_USER_NAME: "elementaryBot"
-        GIT_USER_EMAIL: "builds@elementary.io"
+        GIT_USER_EMAIL: "builds@playnux.io"

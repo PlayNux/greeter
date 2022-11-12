@@ -133,5 +133,5 @@ msgid "Various bug fixes"
 msgstr ""
 
 #: data/greeter.appdata.xml.in:149
-msgid "elementary, Inc."
+msgid "playnux, Inc."
 msgstr ""

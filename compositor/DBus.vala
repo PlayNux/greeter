@@ -1,6 +1,6 @@
 /*
  * Copyright 2012-2014 Tom Beckmann, Jacob Parker
- * Copyright 2018 elementary LLC. (https://elementary.io)
+ * Copyright 2018 playnux LLC. (https://playnux.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-[DBus (name="org.pantheon.greeter")]
+[DBus (name="org.bolt.greeter")]
 public class GreeterCompositor.DBus {
     public static DBus? instance;
     static WindowManager wm;
@@ -25,13 +25,13 @@ public class GreeterCompositor.DBus {
     public static void init (WindowManager _wm) {
         wm = _wm;
 
-        Bus.own_name (BusType.SESSION, "org.pantheon.greeter", BusNameOwnerFlags.NONE,
+        Bus.own_name (BusType.SESSION, "org.bolt.greeter", BusNameOwnerFlags.NONE,
             (connection) => {
                 if (instance == null)
                     instance = new DBus ();
 
                 try {
-                    connection.register_object ("/org/pantheon/greeter", instance);
+                    connection.register_object ("/org/bolt/greeter", instance);
                 } catch (Error e) {
                     warning (e.message);
                 }

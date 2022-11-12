@@ -1,6 +1,6 @@
 /*
  * Copyright 2012-2014 Tom Beckmann, Rico Tzschichholz
- * Copyright 2018 elementary LLC. (https://elementary.io)
+ * Copyright 2018 playnux LLC. (https://playnux.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -75,7 +75,7 @@ namespace GreeterCompositor {
         GLib.HashTable<Meta.Window, int> ws_assoc = new GLib.HashTable<Meta.Window, int> (direct_hash, direct_equal);
 
         construct {
-            info = Meta.PluginInfo () {name = "GreeterCompositor", version = Constants.VERSION, author = "elementary LLC.",
+            info = Meta.PluginInfo () {name = "GreeterCompositor", version = Constants.VERSION, author = "playnux LLC.",
                 license = "GPLv3", description = "The greeter compositor"};
         }
 

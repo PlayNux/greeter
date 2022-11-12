@@ -1,4 +1,4 @@
-[DBus (name = "io.elementary.pantheon.AccountsService")]
+[DBus (name = "io.playnux.bolt.AccountsService")]
 interface Pantheon.AccountsService : Object {
     public abstract string time_format { owned get; set; }
 
@@ -13,7 +13,7 @@ interface Pantheon.AccountsService : Object {
     public abstract int sleep_inactive_battery_type { get; set; }
 }
 
-[DBus (name = "io.elementary.SettingsDaemon.AccountsService")]
+[DBus (name = "io.playnux.SettingsDaemon.AccountsService")]
 interface Pantheon.SettingsDaemon.AccountsService : Object {
     public struct KeyboardLayout {
         public string backend;

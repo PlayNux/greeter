@@ -1,16 +1,16 @@
-# Czech translation for pantheon-greeter
+# Czech translation for bolt-greeter
 # Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
-# This file is distributed under the same license as the pantheon-greeter package.
+# This file is distributed under the same license as the bolt-greeter package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: pantheon-greeter\n"
+"Project-Id-Version: bolt-greeter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-30 10:51+0000\n"
 "PO-Revision-Date: 2020-06-07 12:11+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://l10n.elementary.io/projects/desktop/greeter/cs/"
+"Language-Team: Czech <https://l10n.playnux.io/projects/desktop/greeter/cs/"
 ">\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"

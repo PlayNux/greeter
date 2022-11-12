@@ -1,16 +1,16 @@
-# Russian translation for pantheon-greeter
+# Russian translation for bolt-greeter
 # Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
-# This file is distributed under the same license as the pantheon-greeter package.
+# This file is distributed under the same license as the bolt-greeter package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: pantheon-greeter\n"
+"Project-Id-Version: bolt-greeter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-30 10:51+0000\n"
 "PO-Revision-Date: 2022-09-30 14:55+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
-"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/greeter/"
+"Language-Team: Russian <https://l10n.playnux.io/projects/desktop/greeter/"
 "ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"

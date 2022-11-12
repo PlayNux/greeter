@@ -1,5 +1,5 @@
 /*
- * Copyright 2018-2021 elementary, Inc. (https://elementary.io)
+ * Copyright 2018-2021 playnux, Inc. (https://playnux.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -16,7 +16,7 @@
  * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  * Boston, MA 02110-1301 USA.
  *
- * Authors: Corentin Noël <corentin@elementary.io>
+ * Authors: Corentin Noël <corentin@playnux.io>
  */
 
 public class Greeter.MainWindow : Gtk.ApplicationWindow {
@@ -46,7 +46,7 @@ public class Greeter.MainWindow : Gtk.ApplicationWindow {
 
     static construct {
         css_provider = new Gtk.CssProvider ();
-        css_provider.load_from_resource ("/io/elementary/greeter/MainWindow.css");
+        css_provider.load_from_resource ("/io/playnux/greeter/MainWindow.css");
     }
 
     construct {
@@ -72,8 +72,8 @@ public class Greeter.MainWindow : Gtk.ApplicationWindow {
 
         try {
             var gtksettings = Gtk.Settings.get_default ();
-            gtksettings.gtk_icon_theme_name = "elementary";
-            gtksettings.gtk_theme_name = "io.elementary.stylesheet.blueberry";
+            gtksettings.gtk_icon_theme_name = "playnux";
+            gtksettings.gtk_theme_name = "io.playnux.stylesheet.blueberry";
 
             var css_provider = Gtk.CssProvider.get_named (gtksettings.gtk_theme_name, "dark");
             guest_login_button.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
@@ -396,7 +396,7 @@ public class Greeter.MainWindow : Gtk.ApplicationWindow {
                     var demo_mode_file = File.new_for_path ("/var/lib/lightdm/demo-mode");
                     if (demo_mode_file.query_exists ()) {
                         demo_mode_file.@delete ();
-                        session = "pantheon";
+                        session = "bolt";
                     } else {
                         session = "installer";
                     }
@@ -439,7 +439,7 @@ public class Greeter.MainWindow : Gtk.ApplicationWindow {
         }
 
         // Check if the installer is installed
-        var installer_desktop = new DesktopAppInfo ("io.elementary.installer.desktop");
+        var installer_desktop = new DesktopAppInfo ("io.playnux.installer.desktop");
         if (installer_desktop != null) {
             installer_mode = true;
         }
@@ -475,7 +475,7 @@ public class Greeter.MainWindow : Gtk.ApplicationWindow {
             /* We're not certain that scaling factor will change, but try to wait for GSD in case it does */
             Timeout.add (500, () => {
                 try {
-                    var initial_setup = AppInfo.create_from_commandline ("io.elementary.initial-setup", null, GLib.AppInfoCreateFlags.NONE);
+                    var initial_setup = AppInfo.create_from_commandline ("io.playnux.initial-setup", null, GLib.AppInfoCreateFlags.NONE);
                     initial_setup.launch (null, null);
                 } catch (Error e) {
                     string error_text = _("Unable to Launch Initial Setup");

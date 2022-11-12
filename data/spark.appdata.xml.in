@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2019 elementary, Inc. <contact@elementary.io> -->
+<!-- Copyright 2019 playnux, Inc. <contact@playnux.io> -->
 <component type="desktop-application">
-  <id>io.elementary.greeter</id>
+  <id>io.playnux.greeter</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
   <name>Login &amp; Lock Screen</name>
@@ -11,11 +11,11 @@
   </description>
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/elementary/greeter/master/data/screenshot.png</image>
+      <image>https://raw.githubusercontent.com/playnux/greeter/master/data/screenshot.png</image>
     </screenshot>
   </screenshots>
   <provides>
-    <binary>io.elementary.greeter</binary>
+    <binary>io.playnux.greeter</binary>
   </provides>
   <releases>
     <release version="6.1.0" date="2022-05-09" urgency="medium">
@@ -144,9 +144,9 @@
     <content_attribute id="money-purchasing">none</content_attribute>
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
-  <translation type="gettext">io.elementary.greeter</translation>
+  <translation type="gettext">io.playnux.greeter</translation>
   <compulsory_for_desktop>Pantheon</compulsory_for_desktop>
-  <developer_name>elementary, Inc.</developer_name>
-  <url type="homepage">https://elementary.io</url>
-  <url type="bugtracker">https://github.com/elementary/greeter/issues</url>
+  <developer_name>playnux, Inc.</developer_name>
+  <url type="homepage">https://playnux.io</url>
+  <url type="bugtracker">https://github.com/playnux/greeter/issues</url>
 </component>

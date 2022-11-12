@@ -1,5 +1,5 @@
 project(
-    'io.elementary.greeter',
+    'io.playnux.spark',
     'vala', 'c',
     version: '6.1.0',
     meson_version: '>= 0.49.0'

@@ -1,5 +1,5 @@
 /*
- * Copyright 2018–2021 elementary, Inc. (https://elementary.io)
+ * Copyright 2018–2021 playnux, Inc. (https://playnux.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -16,7 +16,7 @@
  * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  * Boston, MA 02110-1301 USA.
  *
- * Authors: Corentin Noël <corentin@elementary.io>
+ * Authors: Corentin Noël <corentin@playnux.io>
  */
 
 public class Greeter.UserCard : Greeter.BaseCard {
@@ -302,7 +302,7 @@ public class Greeter.UserCard : Greeter.BaseCard {
 
     private void update_style () {
         var gtksettings = Gtk.Settings.get_default ();
-        gtksettings.gtk_theme_name = "io.elementary.stylesheet." + accent_to_string (prefers_accent_color);
+        gtksettings.gtk_theme_name = "io.playnux.stylesheet." + accent_to_string (prefers_accent_color);
 
         var style_provider = Gtk.CssProvider.get_named (gtksettings.gtk_theme_name, null);
         logged_in_context.add_provider (style_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
@@ -468,7 +468,7 @@ public class Greeter.UserCard : Greeter.BaseCard {
 
         static construct {
             check_provider = new Gtk.CssProvider ();
-            check_provider.load_from_resource ("/io/elementary/greeter/Check.css");
+            check_provider.load_from_resource ("/io/playnux/greeter/Check.css");
         }
 
         construct {

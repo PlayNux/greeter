@@ -17,7 +17,7 @@
  * Boston, MA 02110-1301 USA.
  */
 
- [DBus (name = "org.pantheon.gala.WingpanelInterface")]
+ [DBus (name = "org.bolt.gala.WingpanelInterface")]
  public class GreeterCompositor.DBusBackgroundManager : Object {
      private BackgroundManager background_manager;
      private static DBusBackgroundManager? instance;
@@ -27,13 +27,13 @@
     public static void init (WindowManager _wm) {
         wm = _wm;
 
-        Bus.own_name (BusType.SESSION, "org.pantheon.gala.WingpanelInterface", BusNameOwnerFlags.NONE,
+        Bus.own_name (BusType.SESSION, "org.bolt.gala.WingpanelInterface", BusNameOwnerFlags.NONE,
             (connection) => {
                 if (instance == null)
                     instance = new DBusBackgroundManager ();
 
                 try {
-                    connection.register_object ("/org/pantheon/gala/WingpanelInterface", instance);
+                    connection.register_object ("/org/bolt/gala/WingpanelInterface", instance);
                 } catch (Error e) {
                     warning (e.message);
                 }

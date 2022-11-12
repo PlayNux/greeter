@@ -1,16 +1,16 @@
-# Hebrew translation for pantheon-greeter
+# Hebrew translation for bolt-greeter
 # Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
-# This file is distributed under the same license as the pantheon-greeter package.
+# This file is distributed under the same license as the bolt-greeter package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: pantheon-greeter\n"
+"Project-Id-Version: bolt-greeter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-30 10:51+0000\n"
 "PO-Revision-Date: 2022-10-03 13:31+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/greeter/"
+"Language-Team: Hebrew <https://l10n.playnux.io/projects/desktop/greeter/"
 "he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"

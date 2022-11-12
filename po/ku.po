@@ -1,11 +1,11 @@
-# Kurdish translation for pantheon-greeter
+# Kurdish translation for bolt-greeter
 # Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
-# This file is distributed under the same license as the pantheon-greeter package.
+# This file is distributed under the same license as the bolt-greeter package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: pantheon-greeter\n"
+"Project-Id-Version: bolt-greeter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-30 10:51+0000\n"
 "PO-Revision-Date: 2017-02-11 21:15+0000\n"

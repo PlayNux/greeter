@@ -1,6 +1,6 @@
 /*
  * Copyright 2016 Rico Tzschichholz
- * Copyright 2018 elementary LLC. (https://elementary.io)
+ * Copyright 2018 playnux LLC. (https://playnux.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

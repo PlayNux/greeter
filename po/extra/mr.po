@@ -10,7 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2022-09-30 10:51+0000\n"
 "PO-Revision-Date: 2020-04-05 17:48+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
-"Language-Team: Marathi <https://l10n.elementary.io/projects/desktop/greeter-"
+"Language-Team: Marathi <https://l10n.playnux.io/projects/desktop/greeter-"
 "extra/mr/>\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
@@ -136,7 +136,7 @@ msgid "Various bug fixes"
 msgstr "विविध दोष निराकरणे"
 
 #: data/greeter.appdata.xml.in:149
-msgid "elementary, Inc."
+msgid "playnux, Inc."
 msgstr "एलिमेंटरी,Inc."
 
 #~ msgid "Greeter"

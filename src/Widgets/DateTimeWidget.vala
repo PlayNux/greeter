@@ -14,7 +14,7 @@ public class Greeter.DateTimeWidget : Gtk.Revealer {
 
     construct {
         var css_provider = new Gtk.CssProvider ();
-        css_provider.load_from_resource ("/io/elementary/greeter/DateTime.css");
+        css_provider.load_from_resource ("/io/playnux/greeter/DateTime.css");
 
         time_label = new Gtk.Label (null);
 

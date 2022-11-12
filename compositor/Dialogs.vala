@@ -1,5 +1,5 @@
 /*
- * Copyright 2021 elementary, Inc. (https://elementary.io)
+ * Copyright 2021 playnux, Inc. (https://playnux.io)
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
@@ -34,9 +34,9 @@
 
         public signal void response (uint response);
 
-        const string PANTHEON_PORTAL_NAME = "org.freedesktop.impl.portal.desktop.pantheon";
+        const string PANTHEON_PORTAL_NAME = "org.freedesktop.impl.portal.desktop.bolt";
         const string FDO_PORTAL_PATH = "/org/freedesktop/portal/desktop";
-        const string GALA_DIALOG_PATH = "/io/elementary/gala/dialog";
+        const string GALA_DIALOG_PATH = "/io/playnux/gala/dialog";
 
         protected static AccessPortal? portal = null;
         protected ObjectPath? path = null;

@@ -73,7 +73,7 @@ public class Greeter.GnomeSessionManager : GLib.Object {
     private Gee.ArrayList<Greeter.GnomeSessionManagerClient> clients;
     private Gee.ArrayList<unowned Greeter.GnomeSessionManagerClient> inhibitors;
 
-    public string session_name { owned get; set; default = "pantheon"; }
+    public string session_name { owned get; set; default = "bolt"; }
     public string renderer { owned get; set; default = ""; }
     public bool session_is_active { get; set; default = true; }
     public uint inhibited_actions { get; set; default = 0; }

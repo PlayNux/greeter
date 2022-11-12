@@ -1,5 +1,5 @@
 /*
- * Copyright 2018–2021 elementary, Inc. (https://elementary.io)
+ * Copyright 2018–2021 playnux, Inc. (https://playnux.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -16,7 +16,7 @@
  * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  * Boston, MA 02110-1301 USA.
  *
- * Authors: Corentin Noël <corentin@elementary.io>
+ * Authors: Corentin Noël <corentin@playnux.io>
  */
 
 public abstract class Greeter.BaseCard : Gtk.Revealer {
@@ -32,7 +32,7 @@ public abstract class Greeter.BaseCard : Gtk.Revealer {
 
     static construct {
         css_provider = new Gtk.CssProvider ();
-        css_provider.load_from_resource ("/io/elementary/greeter/Card.css");
+        css_provider.load_from_resource ("/io/playnux/greeter/Card.css");
     }
 
     construct {
